@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "1429046931_money_bag.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "waste_basket@2x.png"
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
