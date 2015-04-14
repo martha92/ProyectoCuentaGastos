@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5239D8781ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5239D8771ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m */; };
 		523DA67D1ADCC397009A694E /* ReporteDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA67C1ADCC397009A694E /* ReporteDetalleViewController.m */; };
 		523DA6801ADCC647009A694E /* ReporteDetalle2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA67F1ADCC647009A694E /* ReporteDetalle2ViewController.m */; };
 		523DA68A1ADCC975009A694E /* RegistroIngresoDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6891ADCC975009A694E /* RegistroIngresoDetalleViewController.m */; };
-		523DA68D1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA68C1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m */; };
 		523DA6901ADCDE92009A694E /* SeleccionModificarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA68F1ADCDE92009A694E /* SeleccionModificarViewController.m */; };
 		523DA6951ADCE401009A694E /* ListadoGastosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6941ADCE401009A694E /* ListadoGastosViewController.m */; };
 		523DA6981ADCE4A4009A694E /* ModificarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6971ADCE4A4009A694E /* ModificarViewController.m */; };
@@ -40,14 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5239D8761ADD750500DBD0F6 /* RegistroEgresoDetalleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistroEgresoDetalleViewController.h; sourceTree = "<group>"; };
+		5239D8771ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroEgresoDetalleViewController.m; sourceTree = "<group>"; };
 		523DA67B1ADCC397009A694E /* ReporteDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReporteDetalleViewController.h; sourceTree = "<group>"; };
 		523DA67C1ADCC397009A694E /* ReporteDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReporteDetalleViewController.m; sourceTree = "<group>"; };
 		523DA67E1ADCC647009A694E /* ReporteDetalle2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReporteDetalle2ViewController.h; sourceTree = "<group>"; };
 		523DA67F1ADCC647009A694E /* ReporteDetalle2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReporteDetalle2ViewController.m; sourceTree = "<group>"; };
 		523DA6881ADCC975009A694E /* RegistroIngresoDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroIngresoDetalleViewController.h; sourceTree = "<group>"; };
 		523DA6891ADCC975009A694E /* RegistroIngresoDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroIngresoDetalleViewController.m; sourceTree = "<group>"; };
-		523DA68B1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistroEgresoDetalleViewController.h; path = ../RegistroEgresoDetalleViewController.h; sourceTree = "<group>"; };
-		523DA68C1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistroEgresoDetalleViewController.m; path = ../RegistroEgresoDetalleViewController.m; sourceTree = "<group>"; };
 		523DA68E1ADCDE92009A694E /* SeleccionModificarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeleccionModificarViewController.h; sourceTree = "<group>"; };
 		523DA68F1ADCDE92009A694E /* SeleccionModificarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeleccionModificarViewController.m; sourceTree = "<group>"; };
 		523DA6931ADCE401009A694E /* ListadoGastosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoGastosViewController.h; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 		523DA6821ADCC86E009A694E /* RegistroIngreso/Egreso */ = {
 			isa = PBXGroup;
 			children = (
-				523DA68B1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.h */,
-				523DA68C1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m */,
+				5239D8761ADD750500DBD0F6 /* RegistroEgresoDetalleViewController.h */,
+				5239D8771ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m */,
 				523DA6881ADCC975009A694E /* RegistroIngresoDetalleViewController.h */,
 				523DA6891ADCC975009A694E /* RegistroIngresoDetalleViewController.m */,
 				52A149711ADB6603008C979B /* RegistroEgresoViewController.h */,
@@ -353,7 +353,6 @@
 				523DA6801ADCC647009A694E /* ReporteDetalle2ViewController.m in Sources */,
 				523DA6951ADCE401009A694E /* ListadoGastosViewController.m in Sources */,
 				52A149511ADB1F9E008C979B /* SideBarViewController.m in Sources */,
-				523DA68D1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m in Sources */,
 				52E63EBE1ADB10F600916850 /* AppDelegate.m in Sources */,
 				52A149701ADB5ED1008C979B /* RegistroIngresoViewController.m in Sources */,
 				523DA68A1ADCC975009A694E /* RegistroIngresoDetalleViewController.m in Sources */,
@@ -363,6 +362,7 @@
 				523DA67D1ADCC397009A694E /* ReporteDetalleViewController.m in Sources */,
 				52A149571ADB2080008C979B /* MainViewController.m in Sources */,
 				52E63EBB1ADB10F600916850 /* main.m in Sources */,
+				5239D8781ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m in Sources */,
 				52A1495D1ADB2318008C979B /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
