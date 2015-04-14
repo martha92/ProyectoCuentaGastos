@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523DA67D1ADCC397009A694E /* ReporteDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA67C1ADCC397009A694E /* ReporteDetalleViewController.m */; };
+		523DA6801ADCC647009A694E /* ReporteDetalle2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA67F1ADCC647009A694E /* ReporteDetalle2ViewController.m */; };
+		523DA68A1ADCC975009A694E /* RegistroIngresoDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6891ADCC975009A694E /* RegistroIngresoDetalleViewController.m */; };
+		523DA68D1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA68C1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m */; };
+		523DA6901ADCDE92009A694E /* SeleccionModificarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA68F1ADCDE92009A694E /* SeleccionModificarViewController.m */; };
+		523DA6951ADCE401009A694E /* ListadoGastosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6941ADCE401009A694E /* ListadoGastosViewController.m */; };
+		523DA6981ADCE4A4009A694E /* ModificarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6971ADCE4A4009A694E /* ModificarViewController.m */; };
+		52A149511ADB1F9E008C979B /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149501ADB1F9E008C979B /* SideBarViewController.m */; };
+		52A149541ADB204F008C979B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149531ADB204F008C979B /* LoginViewController.m */; };
+		52A149571ADB2080008C979B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149561ADB2080008C979B /* MainViewController.m */; };
+		52A1495D1ADB2318008C979B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A1495C1ADB2318008C979B /* SWRevealViewController.m */; };
+		52A149701ADB5ED1008C979B /* RegistroIngresoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A1496F1ADB5ED1008C979B /* RegistroIngresoViewController.m */; };
+		52A149731ADB6603008C979B /* RegistroEgresoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149721ADB6603008C979B /* RegistroEgresoViewController.m */; };
+		52A149781ADB6D42008C979B /* VerReporteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149771ADB6D42008C979B /* VerReporteViewController.m */; };
 		52E63EBB1ADB10F600916850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E63EBA1ADB10F600916850 /* main.m */; };
 		52E63EBE1ADB10F600916850 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E63EBD1ADB10F600916850 /* AppDelegate.m */; };
-		52E63EC11ADB10F600916850 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E63EC01ADB10F600916850 /* ViewController.m */; };
 		52E63EC41ADB10F600916850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E63EC21ADB10F600916850 /* Main.storyboard */; };
 		52E63EC61ADB10F600916850 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E63EC51ADB10F600916850 /* Images.xcassets */; };
 		52E63EC91ADB10F600916850 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52E63EC71ADB10F600916850 /* LaunchScreen.xib */; };
@@ -27,13 +40,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		523DA67B1ADCC397009A694E /* ReporteDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReporteDetalleViewController.h; sourceTree = "<group>"; };
+		523DA67C1ADCC397009A694E /* ReporteDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReporteDetalleViewController.m; sourceTree = "<group>"; };
+		523DA67E1ADCC647009A694E /* ReporteDetalle2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReporteDetalle2ViewController.h; sourceTree = "<group>"; };
+		523DA67F1ADCC647009A694E /* ReporteDetalle2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReporteDetalle2ViewController.m; sourceTree = "<group>"; };
+		523DA6881ADCC975009A694E /* RegistroIngresoDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroIngresoDetalleViewController.h; sourceTree = "<group>"; };
+		523DA6891ADCC975009A694E /* RegistroIngresoDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroIngresoDetalleViewController.m; sourceTree = "<group>"; };
+		523DA68B1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistroEgresoDetalleViewController.h; path = ../RegistroEgresoDetalleViewController.h; sourceTree = "<group>"; };
+		523DA68C1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistroEgresoDetalleViewController.m; path = ../RegistroEgresoDetalleViewController.m; sourceTree = "<group>"; };
+		523DA68E1ADCDE92009A694E /* SeleccionModificarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeleccionModificarViewController.h; sourceTree = "<group>"; };
+		523DA68F1ADCDE92009A694E /* SeleccionModificarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeleccionModificarViewController.m; sourceTree = "<group>"; };
+		523DA6931ADCE401009A694E /* ListadoGastosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoGastosViewController.h; sourceTree = "<group>"; };
+		523DA6941ADCE401009A694E /* ListadoGastosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoGastosViewController.m; sourceTree = "<group>"; };
+		523DA6961ADCE4A4009A694E /* ModificarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModificarViewController.h; sourceTree = "<group>"; };
+		523DA6971ADCE4A4009A694E /* ModificarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModificarViewController.m; sourceTree = "<group>"; };
+		52A1494F1ADB1F9E008C979B /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		52A149501ADB1F9E008C979B /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		52A149521ADB204F008C979B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		52A149531ADB204F008C979B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		52A149551ADB2080008C979B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		52A149561ADB2080008C979B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		52A1495B1ADB22C4008C979B /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		52A1495C1ADB2318008C979B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		52A1496E1ADB5ED1008C979B /* RegistroIngresoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroIngresoViewController.h; sourceTree = "<group>"; };
+		52A1496F1ADB5ED1008C979B /* RegistroIngresoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroIngresoViewController.m; sourceTree = "<group>"; };
+		52A149711ADB6603008C979B /* RegistroEgresoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroEgresoViewController.h; sourceTree = "<group>"; };
+		52A149721ADB6603008C979B /* RegistroEgresoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroEgresoViewController.m; sourceTree = "<group>"; };
+		52A149761ADB6D42008C979B /* VerReporteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerReporteViewController.h; sourceTree = "<group>"; };
+		52A149771ADB6D42008C979B /* VerReporteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerReporteViewController.m; sourceTree = "<group>"; };
 		52E63EB51ADB10F500916850 /* ProyectoCuentaGastos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoCuentaGastos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E63EB91ADB10F500916850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E63EBA1ADB10F600916850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52E63EBC1ADB10F600916850 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52E63EBD1ADB10F600916850 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52E63EBF1ADB10F600916850 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52E63EC01ADB10F600916850 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		52E63EC31ADB10F600916850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52E63EC51ADB10F600916850 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52E63EC81ADB10F600916850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +99,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		523DA6811ADCC857009A694E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				52A149521ADB204F008C979B /* LoginViewController.h */,
+				52A149531ADB204F008C979B /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		523DA6821ADCC86E009A694E /* RegistroIngreso/Egreso */ = {
+			isa = PBXGroup;
+			children = (
+				523DA68B1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.h */,
+				523DA68C1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m */,
+				523DA6881ADCC975009A694E /* RegistroIngresoDetalleViewController.h */,
+				523DA6891ADCC975009A694E /* RegistroIngresoDetalleViewController.m */,
+				52A149711ADB6603008C979B /* RegistroEgresoViewController.h */,
+				52A1496E1ADB5ED1008C979B /* RegistroIngresoViewController.h */,
+				52A149721ADB6603008C979B /* RegistroEgresoViewController.m */,
+				52A1496F1ADB5ED1008C979B /* RegistroIngresoViewController.m */,
+			);
+			name = RegistroIngreso/Egreso;
+			sourceTree = "<group>";
+		};
+		523DA6831ADCC89A009A694E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				52A1494F1ADB1F9E008C979B /* SideBarViewController.h */,
+				52A149501ADB1F9E008C979B /* SideBarViewController.m */,
+				52A1495B1ADB22C4008C979B /* SWRevealViewController.h */,
+				52A1495C1ADB2318008C979B /* SWRevealViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		523DA6841ADCC8D9009A694E /* Ver Reporte */ = {
+			isa = PBXGroup;
+			children = (
+				52A149761ADB6D42008C979B /* VerReporteViewController.h */,
+				52A149771ADB6D42008C979B /* VerReporteViewController.m */,
+			);
+			name = "Ver Reporte";
+			sourceTree = "<group>";
+		};
+		523DA6851ADCC905009A694E /* Reporte Detallado */ = {
+			isa = PBXGroup;
+			children = (
+				523DA67B1ADCC397009A694E /* ReporteDetalleViewController.h */,
+				523DA67C1ADCC397009A694E /* ReporteDetalleViewController.m */,
+			);
+			name = "Reporte Detallado";
+			sourceTree = "<group>";
+		};
+		523DA6861ADCC92B009A694E /* Lista Desglose Reporte Detallado */ = {
+			isa = PBXGroup;
+			children = (
+				523DA67E1ADCC647009A694E /* ReporteDetalle2ViewController.h */,
+				523DA67F1ADCC647009A694E /* ReporteDetalle2ViewController.m */,
+			);
+			name = "Lista Desglose Reporte Detallado";
+			sourceTree = "<group>";
+		};
+		523DA6871ADCC939009A694E /* Pantalla Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				52A149561ADB2080008C979B /* MainViewController.m */,
+				52A149551ADB2080008C979B /* MainViewController.h */,
+			);
+			name = "Pantalla Inicio";
+			sourceTree = "<group>";
+		};
+		523DA6921ADCDEA3009A694E /* Modificar informacion */ = {
+			isa = PBXGroup;
+			children = (
+				523DA6961ADCE4A4009A694E /* ModificarViewController.h */,
+				523DA6971ADCE4A4009A694E /* ModificarViewController.m */,
+				523DA6931ADCE401009A694E /* ListadoGastosViewController.h */,
+				523DA6941ADCE401009A694E /* ListadoGastosViewController.m */,
+				523DA68E1ADCDE92009A694E /* SeleccionModificarViewController.h */,
+				523DA68F1ADCDE92009A694E /* SeleccionModificarViewController.m */,
+			);
+			name = "Modificar informacion";
+			sourceTree = "<group>";
+		};
 		52E63EAC1ADB10F500916850 = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +206,15 @@
 			children = (
 				52E63EBC1ADB10F600916850 /* AppDelegate.h */,
 				52E63EBD1ADB10F600916850 /* AppDelegate.m */,
-				52E63EBF1ADB10F600916850 /* ViewController.h */,
-				52E63EC01ADB10F600916850 /* ViewController.m */,
 				52E63EC21ADB10F600916850 /* Main.storyboard */,
+				523DA6921ADCDEA3009A694E /* Modificar informacion */,
+				523DA6831ADCC89A009A694E /* Menu */,
+				523DA6841ADCC8D9009A694E /* Ver Reporte */,
+				523DA6811ADCC857009A694E /* Login */,
+				523DA6821ADCC86E009A694E /* RegistroIngreso/Egreso */,
+				523DA6871ADCC939009A694E /* Pantalla Inicio */,
+				523DA6861ADCC92B009A694E /* Lista Desglose Reporte Detallado */,
+				523DA6851ADCC905009A694E /* Reporte Detallado */,
 				52E63EC51ADB10F600916850 /* Images.xcassets */,
 				52E63EC71ADB10F600916850 /* LaunchScreen.xib */,
 				52E63EB81ADB10F500916850 /* Supporting Files */,
@@ -219,9 +348,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E63EC11ADB10F600916850 /* ViewController.m in Sources */,
+				52A149541ADB204F008C979B /* LoginViewController.m in Sources */,
+				523DA6981ADCE4A4009A694E /* ModificarViewController.m in Sources */,
+				523DA6801ADCC647009A694E /* ReporteDetalle2ViewController.m in Sources */,
+				523DA6951ADCE401009A694E /* ListadoGastosViewController.m in Sources */,
+				52A149511ADB1F9E008C979B /* SideBarViewController.m in Sources */,
+				523DA68D1ADCC9A7009A694E /* RegistroEgresoDetalleViewController.m in Sources */,
 				52E63EBE1ADB10F600916850 /* AppDelegate.m in Sources */,
+				52A149701ADB5ED1008C979B /* RegistroIngresoViewController.m in Sources */,
+				523DA68A1ADCC975009A694E /* RegistroIngresoDetalleViewController.m in Sources */,
+				523DA6901ADCDE92009A694E /* SeleccionModificarViewController.m in Sources */,
+				52A149781ADB6D42008C979B /* VerReporteViewController.m in Sources */,
+				52A149731ADB6603008C979B /* RegistroEgresoViewController.m in Sources */,
+				523DA67D1ADCC397009A694E /* ReporteDetalleViewController.m in Sources */,
+				52A149571ADB2080008C979B /* MainViewController.m in Sources */,
 				52E63EBB1ADB10F600916850 /* main.m in Sources */,
+				52A1495D1ADB2318008C979B /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +558,7 @@
 				52E63EDA1ADB10F600916850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E63EDB1ADB10F600916850 /* Build configuration list for PBXNativeTarget "ProyectoCuentaGastosTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +567,7 @@
 				52E63EDD1ADB10F600916850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
