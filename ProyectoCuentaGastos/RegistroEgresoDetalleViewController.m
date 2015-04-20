@@ -39,16 +39,13 @@
     
 }
 
-- (IBAction)btnCalendarioClicked:(UIButton *)sender {
-    self.datePicker.hidden=NO;
-
-}
-
 - (IBAction)btnRegistrarOtroClicked:(UIButton *)sender {
     self.txtAno.text= @"";
     self.txtMes.text=@"";
     self.txtDia.text=@"";
     self.txtFechaEgreso.text=@"";
+    [self.navigationController popViewControllerAnimated:YES];
+    
 }
 
 - (IBAction)btnTerminarClicked:(UIButton *)sender {

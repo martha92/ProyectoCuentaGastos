@@ -18,8 +18,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtFechaEgreso;
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 - (IBAction)swEgresoClicked:(UISwitch *)sender;
-- (IBAction)datePickerChanged:(UIDatePicker *)sender;
-- (IBAction)btnCalendarioClicked:(UIButton *)sender;
 - (IBAction)btnRegistrarOtroClicked:(UIButton *)sender;
 - (IBAction)btnTerminarClicked:(UIButton *)sender;
 @end

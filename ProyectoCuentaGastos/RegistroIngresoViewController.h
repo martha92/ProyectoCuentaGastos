@@ -14,5 +14,9 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (weak, nonatomic) IBOutlet UITextField *txtConcepto;
 @property (weak, nonatomic) IBOutlet UITextField *txtCantidad;
+- (IBAction)btnFecha:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
+- (IBAction)datePickerChanged:(UIDatePicker *)sender;
+@property (strong, nonatomic) IBOutlet UITextField *txtFechaIngreso;
 
 @end

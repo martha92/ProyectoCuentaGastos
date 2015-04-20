@@ -15,11 +15,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtMes;
 @property (weak, nonatomic) IBOutlet UITextField *txtDia;
 @property (weak, nonatomic) IBOutlet UITextField *txtFechaIngreso;
-@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 - (IBAction)btnTerminarClicked:(UIButton *)sender;
 - (IBAction)swIngresoClicked:(UISwitch *)sender;
-- (IBAction)datePickerChanged:(UIDatePicker *)sender;
-- (IBAction)btnCalendarioClicked:(UIButton *)sender;
 - (IBAction)btnRegistrarOtroClicked:(UIButton *)sender;
 -(void)quitaTeclado;
 @end
