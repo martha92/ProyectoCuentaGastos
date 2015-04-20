@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5215A7921AE5700E00F1AECE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5215A7911AE5700E00F1AECE /* Info.plist */; };
+		5215A7951AE5729100F1AECE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5215A7931AE5729100F1AECE /* FBSDKCoreKit.framework */; };
+		5215A7961AE5729100F1AECE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5215A7941AE5729100F1AECE /* FBSDKLoginKit.framework */; };
+		5215A7981AE5729C00F1AECE /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5215A7971AE5729C00F1AECE /* FBSDKShareKit.framework */; };
 		5239D8781ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5239D8771ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m */; };
 		523DA67D1ADCC397009A694E /* ReporteDetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA67C1ADCC397009A694E /* ReporteDetalleViewController.m */; };
 		523DA6801ADCC647009A694E /* ReporteDetalle2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA67F1ADCC647009A694E /* ReporteDetalle2ViewController.m */; };
@@ -14,6 +18,9 @@
 		523DA6901ADCDE92009A694E /* SeleccionModificarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA68F1ADCDE92009A694E /* SeleccionModificarViewController.m */; };
 		523DA6951ADCE401009A694E /* ListadoGastosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6941ADCE401009A694E /* ListadoGastosViewController.m */; };
 		523DA6981ADCE4A4009A694E /* ModificarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DA6971ADCE4A4009A694E /* ModificarViewController.m */; };
+		5271C2571AE596130076EE67 /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5271C2521AE596130076EE67 /* BEMCircle.m */; };
+		5271C2581AE596130076EE67 /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5271C2541AE596130076EE67 /* BEMLine.m */; };
+		5271C2591AE596130076EE67 /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5271C2561AE596130076EE67 /* BEMSimpleLineGraphView.m */; };
 		52A149511ADB1F9E008C979B /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149501ADB1F9E008C979B /* SideBarViewController.m */; };
 		52A149541ADB204F008C979B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149531ADB204F008C979B /* LoginViewController.m */; };
 		52A149571ADB2080008C979B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A149561ADB2080008C979B /* MainViewController.m */; };
@@ -40,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5215A7911AE5700E00F1AECE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ProyectoCuentaGastosTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		5215A7931AE5729100F1AECE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5215A7941AE5729100F1AECE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5215A7971AE5729C00F1AECE /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		5239D8761ADD750500DBD0F6 /* RegistroEgresoDetalleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistroEgresoDetalleViewController.h; sourceTree = "<group>"; };
 		5239D8771ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroEgresoDetalleViewController.m; sourceTree = "<group>"; };
 		523DA67B1ADCC397009A694E /* ReporteDetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReporteDetalleViewController.h; sourceTree = "<group>"; };
@@ -54,6 +65,12 @@
 		523DA6941ADCE401009A694E /* ListadoGastosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoGastosViewController.m; sourceTree = "<group>"; };
 		523DA6961ADCE4A4009A694E /* ModificarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModificarViewController.h; sourceTree = "<group>"; };
 		523DA6971ADCE4A4009A694E /* ModificarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModificarViewController.m; sourceTree = "<group>"; };
+		5271C2511AE596130076EE67 /* BEMCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCircle.h; sourceTree = "<group>"; };
+		5271C2521AE596130076EE67 /* BEMCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCircle.m; sourceTree = "<group>"; };
+		5271C2531AE596130076EE67 /* BEMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMLine.h; sourceTree = "<group>"; };
+		5271C2541AE596130076EE67 /* BEMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMLine.m; sourceTree = "<group>"; };
+		5271C2551AE596130076EE67 /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		5271C2561AE596130076EE67 /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
 		52A1494F1ADB1F9E008C979B /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
 		52A149501ADB1F9E008C979B /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
 		52A149521ADB204F008C979B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -69,7 +86,7 @@
 		52A149761ADB6D42008C979B /* VerReporteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerReporteViewController.h; sourceTree = "<group>"; };
 		52A149771ADB6D42008C979B /* VerReporteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerReporteViewController.m; sourceTree = "<group>"; };
 		52E63EB51ADB10F500916850 /* ProyectoCuentaGastos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoCuentaGastos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E63EB91ADB10F500916850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E63EB91ADB10F500916850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../ProyectoCuentaGastos/Info.plist; sourceTree = "<group>"; };
 		52E63EBA1ADB10F600916850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52E63EBC1ADB10F600916850 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52E63EBD1ADB10F600916850 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,7 +94,6 @@
 		52E63EC51ADB10F600916850 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		52E63EC81ADB10F600916850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		52E63ECE1ADB10F600916850 /* ProyectoCuentaGastosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoCuentaGastosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E63ED31ADB10F600916850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E63ED41ADB10F600916850 /* ProyectoCuentaGastosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProyectoCuentaGastosTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +102,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5215A7961AE5729100F1AECE /* FBSDKLoginKit.framework in Frameworks */,
+				5215A7951AE5729100F1AECE /* FBSDKCoreKit.framework in Frameworks */,
+				5215A7981AE5729C00F1AECE /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +202,19 @@
 			name = "Modificar informacion";
 			sourceTree = "<group>";
 		};
+		5271C2501AE596050076EE67 /* BEM Files */ = {
+			isa = PBXGroup;
+			children = (
+				5271C2511AE596130076EE67 /* BEMCircle.h */,
+				5271C2521AE596130076EE67 /* BEMCircle.m */,
+				5271C2531AE596130076EE67 /* BEMLine.h */,
+				5271C2541AE596130076EE67 /* BEMLine.m */,
+				5271C2551AE596130076EE67 /* BEMSimpleLineGraphView.h */,
+				5271C2561AE596130076EE67 /* BEMSimpleLineGraphView.m */,
+			);
+			name = "BEM Files";
+			sourceTree = "<group>";
+		};
 		52E63EAC1ADB10F500916850 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +236,10 @@
 		52E63EB71ADB10F500916850 /* ProyectoCuentaGastos */ = {
 			isa = PBXGroup;
 			children = (
+				5271C2501AE596050076EE67 /* BEM Files */,
+				5215A7971AE5729C00F1AECE /* FBSDKShareKit.framework */,
+				5215A7931AE5729100F1AECE /* FBSDKCoreKit.framework */,
+				5215A7941AE5729100F1AECE /* FBSDKLoginKit.framework */,
 				52E63EBC1ADB10F600916850 /* AppDelegate.h */,
 				52E63EBD1ADB10F600916850 /* AppDelegate.m */,
 				52E63EC21ADB10F600916850 /* Main.storyboard */,
@@ -225,7 +261,7 @@
 		52E63EB81ADB10F500916850 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				52E63EB91ADB10F500916850 /* Info.plist */,
+				5215A7911AE5700E00F1AECE /* Info.plist */,
 				52E63EBA1ADB10F600916850 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,7 +279,7 @@
 		52E63ED21ADB10F600916850 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				52E63ED31ADB10F600916850 /* Info.plist */,
+				52E63EB91ADB10F500916850 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -338,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5215A7921AE5700E00F1AECE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +397,13 @@
 				52A149781ADB6D42008C979B /* VerReporteViewController.m in Sources */,
 				52A149731ADB6603008C979B /* RegistroEgresoViewController.m in Sources */,
 				523DA67D1ADCC397009A694E /* ReporteDetalleViewController.m in Sources */,
+				5271C2571AE596130076EE67 /* BEMCircle.m in Sources */,
 				52A149571ADB2080008C979B /* MainViewController.m in Sources */,
+				5271C2581AE596130076EE67 /* BEMLine.m in Sources */,
 				52E63EBB1ADB10F600916850 /* main.m in Sources */,
 				5239D8781ADD750C00DBD0F6 /* RegistroEgresoDetalleViewController.m in Sources */,
 				52A1495D1ADB2318008C979B /* SWRevealViewController.m in Sources */,
+				5271C2591AE596130076EE67 /* BEMSimpleLineGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +529,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/marthagarciacontreras/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = ProyectoCuentaGastos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -499,7 +545,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/marthagarciacontreras/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = ProyectoCuentaGastos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

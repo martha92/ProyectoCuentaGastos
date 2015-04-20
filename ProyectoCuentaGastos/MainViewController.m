@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 
+
 @interface MainViewController ()
 
 @end
@@ -16,30 +17,43 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    NSDate *date = [NSDate date];
+    NSTimeInterval timeInt= [date timeIntervalSince1970];
+    NSString *intervalo = [NSString stringWithFormat:@"%f", timeInt];
     
-    SWRevealViewController *revealViewController = self.revealViewController;
-    if ( revealViewController )
+    NSString *post = [NSString stringWithFormat:@"user=%@&initialDate=%@&finalDate=%@",@"2",@"1", intervalo];
+    NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+    NSString *postLength = [NSString stringWithFormat:@"%lu",(unsigned long)[postData length]];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+    [request setURL:[NSURL URLWithString:@"http://joaquint1991.net46.net/gastos/report.php"]];
+    [request setHTTPMethod:@"POST"];
+    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [request setHTTPBody:postData];
+    
+    NSURLResponse * response = nil;
+    NSError * error = nil;
+    NSData * data = [NSURLConnection sendSynchronousRequest:request
+                                          returningResponse:&response
+                                                      error:&error];
+    
+    if (error == nil)
     {
-        [self.sidebarButton setTarget: self.revealViewController];
-        [self.sidebarButton setAction: @selector( revealToggle: )];
-        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+        NSString *stringData = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+        NSArray *jsonObject = [NSJSONSerialization JSONObjectWithData:[stringData dataUsingEncoding:NSUTF8StringEncoding] options:0 error:NULL];
+        
+        NSArray *balanceTotal = [jsonObject valueForKey:@"total"];
+        NSLog(@"jsonObject=%@", balanceTotal);
+        
+    
     }
-    // Do any additional setup after loading the view.
-}
+    else{
+        NSLog(@"%@", error);
+    }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+    
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
-*/
 
 @end
